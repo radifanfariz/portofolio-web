@@ -2,7 +2,7 @@ const Tulisan = {
     texts:[
         {
             judul: {
-                text: "Telkom Trcaker and Telkom Watcher",
+                text: "Telkom Tracker and Telkom Watcher",
             },
             content:
                 [
