@@ -50,7 +50,7 @@ const Tulisan = {
         },
         {
             judul: {
-                text: "Telkom MyTools App",
+                text: "Telkom MyTools Apps",
             },
             content:
                 [
@@ -110,7 +110,7 @@ const Tulisan = {
         },
         {
             judul: {
-                text: "Telkom Bot App",
+                text: "Telkom Bot Apps",
             },
             content:
                 [
