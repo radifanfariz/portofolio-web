@@ -1,0 +1,53 @@
+[
+    {
+        "judul": {
+            "id": "judul",
+            "text": "MyTools App",
+            "content":
+                [
+                    {
+                        "subJudul": {
+                            "id": "sub-judul",
+                            "text": "MyTools SalesForce"
+                        },
+                        "deskripsi": {
+                            "id": "list-1",
+                            "text": [
+                                "Android application for Telkom Sales to visualize Optical Distribution Point (ODP) into map and to collect new customers data.",
+                                "Using Android Studio (Java), PHP (RESTful API), and MySQL"
+                            ]
+                        }
+
+                    },
+                    {
+                        "subJudul": {
+                            "id": "sub-judul-2",
+                            "text": "MyTools Technician"
+                        },
+                        "deskripsi": {
+                            "id": "list-2",
+                            "text": [
+                                "Android application for Telkom Sales to visualize Optical Distribution Point (ODP) into map and to collect new customers data.",
+                                "Using Android Studio (Java), PHP (RESTful API), and MySQL"
+                            ]
+                        }
+
+                    },
+                    {
+                        "subJudul": {
+                            "id": "sub-judul-3",
+                            "text": "MyTools Collections"
+                        },
+                        "deskripsi": {
+                            "id": "list-3",
+                            "text": [
+                                "Android application for Telkom Sales to visualize Optical Distribution Point (ODP) into map and to collect new customers data.",
+                                "Using Android Studio (Java), PHP (RESTful API), and MySQL"
+                            ]
+                        }
+
+                    }
+                ]
+        }
+    }
+]
