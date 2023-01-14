@@ -8,9 +8,9 @@ const addContent = (index) => {
     let contentComponents = []
 
 
-    projectContents.texts[index].content.map((data) => {
+    projectContents.texts[index].content.map((data,index) => {
         contentComponents.push(
-            <ViewTextList key={uniqueId()} src={data.subJudul.src} subTitle={data.subJudul.text} content={data.deskripsi.text} />
+            <ViewTextList key={`projectContent${index}`} src={data.subJudul.src} subTitle={data.subJudul.text} content={data.deskripsi.text} />
         )
     })
 
@@ -51,8 +51,8 @@ const ViewTextList = ({ subTitle, src, content }) => {
                 </Link>
             </div>
             <ul className="text-3xl xl:text-xl text-left p-2 list-disc">
-                {content.map(element =>
-                    <li key={uniqueId()}>{element}</li>
+                {content.map((element,index) =>
+                    <li key={`element${index}`}>{element}</li>
                 )}
             </ul>
         </>
