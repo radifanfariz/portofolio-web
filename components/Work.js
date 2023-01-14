@@ -1,8 +1,12 @@
 import "swiper/css";
 import "swiper/css/navigation";
+<<<<<<< HEAD
 import workContents from "../contents/work_contents";
 import ViewWorks from "./subcomponents/ViewWorks";
 
+=======
+import { addComponents } from "./subcomponents/ViewWorks";
+>>>>>>> bb9a3da755bfe95975cdbb47d0a1c7fb97d936a4
 
 
 const Work = () => {

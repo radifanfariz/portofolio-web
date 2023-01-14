@@ -1,9 +1,15 @@
 import workContents from "../../contents/work_contents"
 
 
+<<<<<<< HEAD
+=======
+
+const addComponents = () => {
+>>>>>>> bb9a3da755bfe95975cdbb47d0a1c7fb97d936a4
 
 // const addComponents = () => {
 
+<<<<<<< HEAD
 //     let contentComponents = []
 
 //     workContents.works.map((data) => {
@@ -11,6 +17,13 @@ import workContents from "../../contents/work_contents"
 //             <ViewWorks key={data.id} tahun={data.tahun} warna={data.warna} title={data.title} texts={data.texts} />
 //         )
 //     })
+=======
+    workContents.works.map((data) => {
+        contentComponents.push(
+            <ViewWorks key={data.id} tahun={data.tahun} warna={data.warna} title={data.title} texts={data.texts} />
+        )
+    })
+>>>>>>> bb9a3da755bfe95975cdbb47d0a1c7fb97d936a4
 
 
 //     return (
