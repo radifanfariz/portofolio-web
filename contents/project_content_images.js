@@ -1,6 +1,5 @@
-import Template from '../../static/template.png'
 
-const ProjectImages = [{
+const projectContentImages = [{
     images:
     [
         {
@@ -89,4 +88,4 @@ const ProjectImages = [{
 
 ]
 
-export default ProjectImages
+export default projectContentImages

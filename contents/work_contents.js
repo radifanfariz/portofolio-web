@@ -1,6 +1,7 @@
-const ContentWorks = {
+const workContents = {
     works: [
         {
+            id:"work1",
             warna: "bg-blue-200",
             tahun: "2021-2022",
             title: "Programmer (Freelance), PT Telkom Indonesia Tbk,",
@@ -15,6 +16,7 @@ const ContentWorks = {
             `]
         },
         {
+            id:"work2",
             warna: "bg-red-200",
             tahun: "2021",
             title: "Programmer (Freelance), PT Telkom Indonesia Tbk,",
@@ -23,6 +25,7 @@ const ContentWorks = {
             Telegram in real time.`]
         },
         {
+            id:"work3",
             warna: "bg-yellow-200",
             tahun: "2020-2021",
             title: "Programmer (Freelance), PT Telkom Indonesia Tbk,",
@@ -33,6 +36,7 @@ const ContentWorks = {
             is used for scraping data from internal site of Telkom and sending it to Telegram Bot.`]
         },
         {
+            id:"work4",
             warna: "bg-orange-200",
             tahun: "2020",
             title: "Programmer (Freelance), PT Telkom Indonesia Tbk,",
@@ -44,6 +48,7 @@ const ContentWorks = {
             mobile app that had been created.`]
         },
         {
+            id:"work5",
             warna: "bg-green-200",
             tahun: "2019",
             title: "Programmer (Internship), PT Telkom Indonesia Tbk,",
@@ -55,4 +60,4 @@ const ContentWorks = {
     ],
 }
 
-export default ContentWorks
+export default workContents

@@ -1,4 +1,4 @@
-const Tulisan = {
+const projectContents = {
     texts:[
         {
             judul: {
@@ -255,6 +255,6 @@ const Tulisan = {
     ]
 }
 
-export default Tulisan
+export default projectContents
 
 

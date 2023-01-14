@@ -1,11 +1,5 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import Link from 'next/link';
-import Image from 'next/image'
-import Template from '../static/template.png'
-import { addContent, getTittle } from "./subcomponents/ViewText";
 import { addComponents } from "./subcomponents/ViewWorks";
 
 
