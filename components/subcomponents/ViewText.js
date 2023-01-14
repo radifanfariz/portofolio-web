@@ -1,15 +1,14 @@
-import { data } from "autoprefixer"
 import Link from "next/link"
-import Tulisan from "./ContentTexts"
 import { GoLogoGithub } from "react-icons/go"
 import { AiFillGithub } from "react-icons/ai"
+import projectContents from "../../contents/project_contents"
 
 const addContent = (index) => {
 
     let contentComponents = []
 
 
-    Tulisan.texts[index].content.map((data) => {
+    projectContents.texts[index].content.map((data) => {
         contentComponents.push(
             <ViewTextList key={uniqueId()} src={data.subJudul.src} subTitle={data.subJudul.text} content={data.deskripsi.text} />
         )
@@ -22,7 +21,7 @@ const addContent = (index) => {
 
 const getTittle = (index) => {
 
-    return Tulisan.texts[index].judul.text
+    return projectContents.texts[index].judul.text
 }
 
 const uniqueId = () => {

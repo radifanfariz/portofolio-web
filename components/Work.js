@@ -1,12 +1,8 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import Link from 'next/link';
-import Image from 'next/image'
-import Template from '../static/template.png'
-import { addContent, getTittle } from "./subcomponents/ViewText";
-import { addComponents } from "./subcomponents/ViewWorks";
+import workContents from "../contents/work_contents";
+import ViewWorks from "./subcomponents/ViewWorks";
+
 
 
 const Work = () => {
@@ -19,7 +15,9 @@ const Work = () => {
                     </div>
                     <div className="flex justify-center px-20">
                         <div className="flex flex-col items-center mb-10 justify-center text-xl">
-                            {addComponents()}
+                            {workContents.works.map((data) => {
+                                return <ViewWorks key={data.id} tahun={data.tahun} warna={data.warna} title={data.title} texts={data.texts} />
+                            })}
                         </div>
                     </div>
                 </div>

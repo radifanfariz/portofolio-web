@@ -2,14 +2,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import Link from 'next/link';
 import Image from 'next/image'
-import ProjectImages from "./ContentImages";
+import projectContentImages from "../../contents/project_content_images";
 
 const addComponents = (index) => {
 
     return (
-        <PreviewSlider key={uniqueId()} imageList={ProjectImages[index].images} />
+        <PreviewSlider key={uniqueId()} imageList={projectContentImages[index].images} />
     )
 }
 
