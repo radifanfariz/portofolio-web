@@ -10,6 +10,7 @@ module.exports = {
     "bg-yellow-200",
     "bg-orange-200",
     "bg-green-200",
+    "bg-lime-200",
   ],
   fontFamily: {
     sans: [
