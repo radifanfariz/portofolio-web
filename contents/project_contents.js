@@ -1,5 +1,41 @@
 const projectContents = {
-    texts:[
+    texts: [
+        {
+            judul: {
+                text: "BridesVow.com and BridesVow CMS",
+            },
+            content:
+                [
+                    {
+                        subJudul: {
+                            text: "BridesVow.com",
+                            src: "https://github.com/radifanfariz/BridesVow"
+                        },
+                        deskripsi: {
+                            text: [
+                                `Web based application for making online wedding invitation and RSVP 
+                                management`,
+                                `Using React.js Framework (Next.js) and Strapi with customization backend 
+                                based on Koa.js`
+                            ]
+                        }
+
+                    },
+                    {
+                        subJudul: {
+                            text: "BridesVow CMS",
+                            src: "https://github.com/radifanfariz/BridesVow-Strapi"
+                        },
+                        deskripsi: {
+                            text: [
+                                `Web based CMS with modification for handling BridesVow.com user data, transaction data, and invitation data. it do communication to BridesVow.com through RESTful API`,
+                                `Using Koa Framewrok (Node.js).`
+                            ]
+                        }
+
+                    },
+                ]
+        },
         {
             judul: {
                 text: "Telkom Tracker and Telkom Watcher",
@@ -19,7 +55,7 @@ const projectContents = {
                                 `Using Android Studio (Kotlin).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -34,7 +70,7 @@ const projectContents = {
                                 `Using Flutter (Dart).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -44,7 +80,7 @@ const projectContents = {
                         deskripsi: {
                             text: [`Using Node.js (RESTful API), and MySQL.`]
                         }
-    
+
                     },
                 ]
         },
@@ -66,7 +102,7 @@ const projectContents = {
                                 `Using Android Studio (Java).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -80,7 +116,7 @@ const projectContents = {
                                 `Using Android Studio (Java).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -94,7 +130,7 @@ const projectContents = {
                                 `Using Android Studio (Java).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -104,7 +140,7 @@ const projectContents = {
                         deskripsi: {
                             text: [`Using PHP (RESTful API), and MySQL.`]
                         }
-    
+
                     },
                 ]
         },
@@ -117,7 +153,7 @@ const projectContents = {
                     {
                         subJudul: {
                             text: "XproBot",
-                            src:`https://github.com/radifanfariz/Telkom-Telegram-Bots`
+                            src: `https://github.com/radifanfariz/Telkom-Telegram-Bots`
                         },
                         deskripsi: {
                             text: [
@@ -126,12 +162,12 @@ const projectContents = {
                                 `Using Visual Studio (C#).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
                             text: "TelkomCareBot",
-                            src:`https://github.com/radifanfariz/Telkom-Telegram-Bots`
+                            src: `https://github.com/radifanfariz/Telkom-Telegram-Bots`
                         },
                         deskripsi: {
                             text: [
@@ -140,12 +176,12 @@ const projectContents = {
                                 `Using Visual Studio (C#).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
                             text: "ODC Bot",
-                            src:`https://github.com/radifanfariz/Telkom-Telegram-Bots`
+                            src: `https://github.com/radifanfariz/Telkom-Telegram-Bots`
                         },
                         deskripsi: {
                             text: [
@@ -154,7 +190,7 @@ const projectContents = {
                                 `Using Python.`
                             ]
                         }
-    
+
                     },
                 ]
         },
@@ -167,7 +203,7 @@ const projectContents = {
                     {
                         subJudul: {
                             text: "Smart Save Infra",
-                            src:`https://github.com/radifanfariz/Telkom-SmartSaveInfra`
+                            src: `https://github.com/radifanfariz/Telkom-SmartSaveInfra`
                         },
                         deskripsi: {
                             text: [
@@ -177,12 +213,12 @@ const projectContents = {
                                 `Using Android Studio (Java).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
                             text: "MyODP",
-                            src:`https://github.com/radifanfariz/Telkom-MyODP`
+                            src: `https://github.com/radifanfariz/Telkom-MyODP`
                         },
                         deskripsi: {
                             text: [
@@ -190,7 +226,7 @@ const projectContents = {
                                 `Using Android Studio (Java).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -200,7 +236,7 @@ const projectContents = {
                         deskripsi: {
                             text: [`Using PHP (RESTful API), and MySQL.`]
                         }
-    
+
                     },
                 ]
         },
@@ -213,7 +249,7 @@ const projectContents = {
                     {
                         subJudul: {
                             text: "HopfieldTSP App",
-                            src:`https://github.com/radifanfariz/Flutter-PHP-HopfieldTSP-in-TelkomODP`
+                            src: `https://github.com/radifanfariz/Flutter-PHP-HopfieldTSP-in-TelkomODP`
                         },
                         deskripsi: {
                             text: [
@@ -224,7 +260,7 @@ const projectContents = {
                                 `Using Flutter (Dart).`
                             ]
                         }
-    
+
                     },
                     {
                         subJudul: {
@@ -234,12 +270,12 @@ const projectContents = {
                         deskripsi: {
                             text: [`Using PHP (RESTful API), and MySQL.`]
                         }
-    
+
                     },
                     {
                         subJudul: {
                             text: "Face Expression Recognition",
-                            src:`https://github.com/radifanfariz/Face_Expression_Recognition`
+                            src: `https://github.com/radifanfariz/Face_Expression_Recognition`
                         },
                         deskripsi: {
                             text: [
@@ -248,7 +284,7 @@ const projectContents = {
                                 `Using Python.`
                             ]
                         }
-    
+
                     },
                 ]
         },

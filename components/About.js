@@ -14,7 +14,7 @@ const About = () => {
                         <Image className="rounded-full object-cover object-top max-w-full h-auto" src={Profile.src} alt={"Logo"} width={150} height={150} />
                     </div>
                     <div className="p-5">
-                        <div className="text-3xl xl:text-xl text-left font-sans py-5 px-5 text-black">
+                        <div className="text-3xl xl:text-xl text-left font-sans tracking-tighter font-semibold py-5 px-5 text-black">
                             {aboutContents}
                         </div>
                     </div>

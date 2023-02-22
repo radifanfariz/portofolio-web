@@ -1,13 +1,12 @@
 const aboutContents = `My Name is Radifan Fariz. I graduated in Computer Science with 3.65 GPA. I define myself as
-Programmer/Developer and for now I’m more experienced in android apps
-development. I started seriously learning and developing android apps
+Programmer/Full-Stack Developer and for now I’m experienced in android app
+development Native and Flutter, Backend language Node.js, PHP, C# and Python, and also Frontend language Javascript (React.js). 
+I started seriously learning and developing apps
 when internship in PT. Telkom Regional 1 Sumatera. After finished my
-internship, I got contract to develop some android apps for PT. Telkom
-Regional 1 Sumatera. So from when i started my internship and I’ve
-completed my contract from PT. Telkom Regional 1 Sumatera until now, I
-already have more than 2 years of experience in android apps development.
-Throughout the time that I worked in android apps development, I also
-learned and enhanced some skills like PHP, Python, Flutter, Node.js, etc.
+internship, I got repeated contract to develop some android apps for PT. Telkom
+Regional 1 Sumatera and I also later got contract from other company. Beside working on app development I've been also attend Digitalent Machine Learning training program 
+from Ministry of Communication and Information Technology of Indonesia and have a chance to attend Tensorflow Global Certification. 
+So Throughout my career until now I've been focus on developing myself capabilities.
 `
 
 export default aboutContents

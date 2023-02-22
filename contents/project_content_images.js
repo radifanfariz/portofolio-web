@@ -1,5 +1,24 @@
 
-const projectContentImages = [{
+const projectContentImages = [
+    {
+    images:
+    [
+        {
+        title:"BridesVow.com",
+        src:['/static/BridesVow/1.png','/static/BridesVow/2.png','/static/BridesVow/3.png'
+        ,'/static/BridesVow/4.png','/static/BridesVow/5.png','/static/BridesVow/6.png','/static/BridesVow/7.png',
+        '/static/BridesVow/8.png','/static/BridesVow/9.png','/static/BridesVow/10.png','/static/BridesVow/11.png','/static/BridesVow/12.png','/static/BridesVow/13.png',
+        '/static/BridesVow/14.png','/static/BridesVow/15.png','/static/BridesVow/16.png','/static/BridesVow/17.png','/static/BridesVow/18.png','/static/BridesVow/19.png',
+        '/static/BridesVow/20.png','/static/BridesVow/21.png','/static/BridesVow/22.png','/static/BridesVow/23.png']
+    },
+        {
+        title:"BridesVow",
+        src:['/static/BridesVowCMS/1.png','/static/BridesVowCMS/2.png']
+    },
+
+],
+},
+{
     images:
     [
         {

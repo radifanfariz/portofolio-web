@@ -63,6 +63,17 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+        <div className="flex h-auto justify-center">
+            <div className="flex w-[800px] flex-col bg-white mt-3 rounded-3xl">
+                <div className="flex justify-center mb-7 mt-10">
+                    <div className="text-2xl font-semibold font-['tommy'] bg-black text-white rounded-xl p-3">{getTittle(4)}</div>
+                </div>
+                {addComponents(5)}
+                <div className="mx-6 text-justify font-sans py-5 px-5 text-black">
+                    {addContent(5)}
+                </div>
+            </div>
+        </div>
     </main>
     )
 }
